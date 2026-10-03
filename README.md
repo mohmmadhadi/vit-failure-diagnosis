@@ -60,7 +60,3 @@ and checkpoints cached on Google Drive. To run it elsewhere:
 5. Run the notebook top to bottom. `CFG.max_failures` can be set to a small
    number for a fast dry run before committing to the full failure set.
 
-## Status
-
-Independent research project — see the notebook's "Notes and limitations"
-section (end of Section 13) for current caveats.
