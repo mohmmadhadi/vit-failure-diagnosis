@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Data & large artifacts (Stanford Cars + checkpoints are fetched/produced at runtime)
+stanford_cars/
+*.pth
+*.pt
+*.ckpt
+
+# Outputs produced by the notebook (diagnoses, figures, exported CSVs, etc.)
+outputs/*
+!outputs/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
